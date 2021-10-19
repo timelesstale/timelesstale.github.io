@@ -1,19 +1,40 @@
-.wrapper { 
-    border : 2px solid #000; 
-    overflow:hidden;
-  }
-  
-  .wrapper div {
-     min-height: 100px;
-     padding: 10px;
-  }
+.hoverContent {
+    position: relative;
+    /* max-width: 300px; */
+    margin: auto;
+    overflow: hidden
+}
 
-  /* @media screen and (min-width: 400px) {
-     #one { 
-      float: none;
-      margin-right:0;
-      width:auto;
-      border:0;
-      border-bottom:2px solid #000;    
-    }
-  } */
+.hoverContent .hoverContent-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -moz-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s
+}
+
+.hoverContent:hover .hoverContent-overlay {
+    opacity: 1
+}
+
+img {
+    box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 5px
+}
+
+.hoverContent:hover .hoverContent-details {
+    top: 50%;
+    left: 50%;
+    opacity: 1
+}
+
+.fadeIn-bottom {
+    top: 80%
+}
