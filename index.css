@@ -1,6 +1,10 @@
+
+body {
+	overflow-x: hidden;
+  }
+
 .hoverContent {
     position: relative;
-    /* max-width: 300px; */
     margin: auto;
     overflow: hidden
 }
@@ -24,10 +28,10 @@
     opacity: 1
 }
 
-img {
+/* img {
     box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
     border-radius: 5px
-}
+} */
 
 .hoverContent:hover .hoverContent-details {
     top: 50%;
@@ -38,3 +42,4 @@ img {
 .fadeIn-bottom {
     top: 80%
 }
+
