@@ -1,7 +1,9 @@
 
-body {
+body 
+{
 	overflow-x: hidden;
-  }
+    background-color: black !important; 
+}
 
 .hoverContent {
     position: relative;
