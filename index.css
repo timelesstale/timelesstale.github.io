@@ -3,8 +3,11 @@ body
 {
 	overflow-x: hidden !important;
     background-color: black !important; 
-    margin:0 !important;
-    padding:0 !important;
+    max-width: 100% !important;
+}
+
+.row {
+    --bs-gutter-x: 0 !important;
 }
 
 .hoverContent {
