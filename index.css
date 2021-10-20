@@ -1,7 +1,55 @@
 
-body {
+body.my {
 	overflow-x: hidden;
+    background-image: url("./static/images/NebbiaAnimataConScrittaTrailerErbaNuova.png");
+    background-color: black;
+    background-size: 1300px auto;
+    background-repeat: no-repeat;
+    background-position: top 0px center;
+}
+
+@media screen and (max-width: 1300px) {
+    body.my {
+        background-size: 1000px auto;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    body.my {
+        background-size: 700px auto;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    body.my {
+        background-size: 400px auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    body.my {
+        background-size: 250px auto;
+    }
+}
+
+.pic{
+    /* width: 15%;
+    height: auto; */
+    opacity: 1;
+    filter: alpha(opacity=100);
+    content:url("./static/images/SteamWhite.png");
+    /* background: url("./static/images/SteamWhite.png") no-repeat; */
+    /* background: url(http://www.corelangs.com/css/box/img/duck.png) no-repeat; */
   }
+
+  .pic:hover
+  {
+    opacity: 0.3;
+    filter: alpha(opacity=30);
+  }
+
+
+
 
 .hoverContent {
     position: relative;
