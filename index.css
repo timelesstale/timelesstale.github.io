@@ -13,10 +13,12 @@ body
 
 
 .our-team {
+    border-radius: 10px;
+    border: 3px solid #202020;
     padding: 30px 0 40px;
     margin-bottom: 30px;
-    background-color: #f7f5ec;
-    text-align: center;
+    background-color: #0A0A0A;
+    text-align: center !important;
     overflow: hidden;
     position: relative;
   }
@@ -75,15 +77,21 @@ body
   }
 
   .our-team .team-content {
-      width: 80% !important;
-      align-items: center;
+      display: inline-block;
+      width: 80%;
   }
   
   .our-team .title {
     display: block;
-    font-size: 15px;
-    color: #4e5052;
+    font-size: 17.5px;
+    color: #b6b6b6;
     text-transform: capitalize;
+    height: 80px;
+  }
+
+  .our-team .name {
+    height: 60px;
+    color: #76bbff;
   }
   
   .our-team .social {
