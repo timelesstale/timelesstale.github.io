@@ -4,6 +4,7 @@ body
 	overflow-x: hidden !important;
     /* background-color: rgb(255, 255, 255) !important;  */
     background-color: rgb(0, 0, 0) !important; 
+    
     max-width: 100% !important;
 }
 
@@ -20,8 +21,20 @@ body
     margin-right: 0 !important;
 }
 
+.text-responsive {
+  font-size: calc(100% + 1vw + 1vh);
+}
+
+.blue-text{
+  color: #76bbff;
+}
+
+.members-background{
+  background-color: #020f1f;
+}
 
 .our-team {
+    display: block;
     border-radius: 10px;
     border: 3px solid #202020;
     padding: 30px 0 40px;
@@ -30,12 +43,14 @@ body
     text-align: center !important;
     overflow: hidden;
     position: relative;
+    max-width: 400px;
+    min-width: 150px;
   }
   
   .our-team .picture {
     display: inline-block;
-    height: 200px;
-    width: 200px;
+    max-height: 200px;
+    max-width: 200px;
     margin-bottom: 50px;
     z-index: 1;
     position: relative;
@@ -91,6 +106,13 @@ body
   }
   
   .our-team .title {
+    display: block;
+    font-size: 17.5px;
+    color: #b6b6b6;
+    text-transform: capitalize;
+  }
+
+  .our-team .titleLeaders {
     display: block;
     font-size: 17.5px;
     color: #b6b6b6;
