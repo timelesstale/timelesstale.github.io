@@ -5,7 +5,7 @@ body
     /* background-color: rgb(255, 255, 255) !important;  */
     background-color: rgb(0, 0, 0) !important; 
     
-    max-width: 100% !important;
+    width: 100% !important;
 }
 
 .row 
@@ -130,6 +130,7 @@ body
   .our-team .team-content {
       display: inline-block;
       width: 80%;
+      height: 135px;
   }
   
   .our-team .title {
@@ -139,13 +140,13 @@ body
     text-transform: capitalize;
   }
 
-  .our-team .titleLeaders {
+  /* .our-team .titleLeaders {
     display: block;
     font-size: 17.5px;
     color: #b6b6b6;
     text-transform: capitalize;
     height: 80px;
-  }
+  } */
 
   .our-team .name {
     height: 60px;
