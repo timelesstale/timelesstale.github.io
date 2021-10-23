@@ -13,6 +13,13 @@ body
     --bs-gutter-x: 0 !important;
 }
 
+@media screen and (min-width: 724px) and (max-width: 768px) {
+  .custom-iphone-col {
+    flex: 0 0 auto !important;
+    width: 41.66666667% !important;
+  }
+}
+
 .container-fluid 
 {
     padding-left: 0 !important;
