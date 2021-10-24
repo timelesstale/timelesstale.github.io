@@ -64,21 +64,23 @@ body
     display: block;
     border-radius: 10px;
     border: 3px solid #202020;
-    padding: 30px 0 40px;
+    padding: 20px 0 40px;
     margin-bottom: 30px;
     background-color: #0A0A0A;
     text-align: center !important;
     overflow: hidden;
     position: relative;
-    max-width: 400px;
+    max-width: 320px;
     min-width: 150px;
+    /* min-width: 320px; */
+    /* width: 320px; */
   }
   
   .our-team .picture {
     display: inline-block;
     max-height: 200px;
     max-width: 200px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     z-index: 1;
     position: relative;
   }
@@ -124,7 +126,7 @@ body
   
   .our-team:hover .picture img {
     box-shadow: 0 0 0 14px #f7f5ec;
-    transform: scale(0.7);
+    transform: scale(0.8);
   }
 
   .our-team .team-content {
@@ -140,16 +142,9 @@ body
     text-transform: capitalize;
   }
 
-  /* .our-team .titleLeaders {
-    display: block;
-    font-size: 17.5px;
-    color: #b6b6b6;
-    text-transform: capitalize;
-    height: 80px;
-  } */
-
   .our-team .name {
     height: 60px;
+    margin-bottom: 20px;
     color: #76bbff;
   }
   
