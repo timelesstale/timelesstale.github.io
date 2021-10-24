@@ -40,6 +40,38 @@ body
   }
 }
 
+@media screen and (min-width: 1920px) {
+  .col-xxl-founders {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: 41.66666667% !important;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .col-xxl-founders {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: 80% !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .col-xxl-artists {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: 58.33333333% !important;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .col-xxl-artists {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: 80% !important;
+  }
+}
+
 .container-fluid 
 {
     padding-left: 0 !important;
@@ -49,11 +81,19 @@ body
 }
 
 .text-responsive {
-  font-size: calc(100% + 1vw + 1vh);
+  font-size: calc(100% + 1vw + 1vh) !important;
 }
 
 .blue-text{
   color: #76bbff;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+  font-size: 25px;
+}
+
+.team-roles {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
 }
 
 .members-background{
@@ -63,7 +103,8 @@ body
 .our-team {
     display: block;
     border-radius: 10px;
-    border: 3px solid #202020;
+    border: 2px solid;
+    border-color: #3C5F82;
     padding: 20px 0 40px;
     margin-bottom: 30px;
     background-color: #0A0A0A;
@@ -75,7 +116,48 @@ body
     /* min-width: 320px; */
     /* width: 320px; */
   }
+
+  .artists {
+    border-color: #464646 !important;
+  }
+
+  .our-team .team-content {
+    display: inline-block;
+    width: 80%;
+    height: 120px;
+  }
+
+  .our-team .title {
+    display: block;
+    /* font-size: 17.5px; */
+    font-size: 19px;
+    color: #b6b6b6;
+    text-transform: capitalize;
+  }
+
+  .our-team .name {
+    height: 30px;
+    margin-bottom: 20px;
+  }
   
+  @media screen and (min-width: 724px) and (max-width: 946px) {
+    .nome-acapo {
+      font-size: 19px !important;
+    }
+  }
+
+  @media screen and (max-width: 473px), screen and (min-width: 576px) and (max-width: 591px){
+    .nome-acapo {
+      height: 60px !important;
+    }
+  }
+
+  @media screen and (max-width: 327px){
+    .nome2-acapo {
+      height: 60px !important;
+    }
+  }
+
   .our-team .picture {
     display: inline-block;
     max-height: 200px;
@@ -128,26 +210,7 @@ body
     box-shadow: 0 0 0 14px #f7f5ec;
     transform: scale(0.8);
   }
-
-  .our-team .team-content {
-      display: inline-block;
-      width: 80%;
-      height: 135px;
-  }
-  
-  .our-team .title {
-    display: block;
-    font-size: 17.5px;
-    color: #b6b6b6;
-    text-transform: capitalize;
-  }
-
-  .our-team .name {
-    height: 60px;
-    margin-bottom: 20px;
-    color: #76bbff;
-  }
-  
+ 
   .our-team .social {
     width: 100%;
     padding: 0;
@@ -182,13 +245,30 @@ body
   }
   
 
-
+  #headerBG {
+    position: relative;
+    display: inline;
+    width: 100vw;
+}
+  #steamLogo {
+      position:absolute;
+      left:23%;
+      top:46%;
+      max-width: 10%;
+  }
+  #itchLogo {
+      position:absolute;
+      left:77%;
+      top:46%;
+      max-width: 10%;
+      transform:translate(-100%,0%);
+  }
 
 
 .hoverContent {
     position: relative;
     margin: auto;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .hoverContent .hoverContent-overlay {
