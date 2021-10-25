@@ -180,15 +180,24 @@ h3.text-responsive {
       height: 60px !important;
     }
   }
+  
+  /* Alessandro font size */
+  .alessandro {
+    font-size: 23px !important;
+  }
 
   /* Bug nome a capo degli artisti a dimensione molto piccola */
   @media screen and (max-width: 327px){
     .nome2-acapo {
       height: 60px !important;
     }
+
+    .alessandro {
+      font-size: 25px !important;
+    }
   }
 
-  /* People card picture & social */
+    /* People card picture & social */
 
   .our-team .picture {
     display: inline-block;
@@ -276,15 +285,59 @@ h3.text-responsive {
     background-color: #f7f5ec;
   }
 
+  /* Contributors */
+  .our-team.contributors .team-content{
+    height: 115px;
+  }
+
   @media screen and (min-width: 1400px) and (max-width: 1920px){
     .contributors{
       max-width: 233px;
+    }
+    .our-team.contributors .name {
+      height: 50px;
+      margin-bottom: 20px;    
+    }
+    
+    .our-team.contributors .alessandro {
+      font-size: 25px;
     }
   }
 
   @media screen and (min-width: 1200px) and (max-width: 1399px){
     .contributors{
       max-width: 300px;
+    }
+
+    .our-team.contributors .name {
+      height: 50px;
+      margin-bottom: 20px;    
+    }
+
+    .our-team.contributors .alessandro {
+      font-size: 25px !important;
+    }
+  }
+
+  @media screen and (min-width: 576px) and (max-width: 749px){
+    .our-team.contributors .name {
+      height: 50px;
+      margin-bottom: 20px;    
+    }
+
+    .our-team.contributors .alessandro {
+      font-size: 25px !important;
+    }
+  }
+
+  @media screen and (min-width: 327px) and (max-width: 374px){
+    .our-team.contributors .name {
+      height: 50px;
+      margin-bottom: 20px;    
+    }
+    
+    .our-team.contributors .alessandro {
+      font-size: 25px !important;
     }
   }
 
