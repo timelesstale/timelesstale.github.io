@@ -58,7 +58,7 @@ body
   .col-xxl-founders {
     display: block !important;
     flex: 0 0 auto !important;
-    width: 41.66666667% !important;
+    width: 33.33333% !important;
   }
 }
 
@@ -74,7 +74,7 @@ body
   .col-xxl-artists {
     display: block !important;
     flex: 0 0 auto !important;
-    width: 58.33333333% !important;
+    width: 50% !important;
   }
 }
 
@@ -83,6 +83,20 @@ body
     display: block !important;
     flex: 0 0 auto !important;
     width: 80% !important;
+  }
+}
+
+@media screen and (min-width: 1920px) {
+  .col-xxl-divisore {
+    display: block !important;
+    flex: 0 0 auto !important;
+    width: 8.333333% !important;
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .col-xxl-divisore {
+    display: none !important;
   }
 }
 
@@ -150,7 +164,7 @@ body
   }
   
   /* Bug nome a capo del mio nome  */
-  @media screen and (min-width: 724px) and (max-width: 946px) {
+  @media screen and (min-width: 724px) and (max-width: 946px), screen and (min-width: 1920px) and (max-width: 2272px) {
     .nome-acapo {
       font-size: 19px !important;
     }
