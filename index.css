@@ -428,6 +428,7 @@ h3.text-responsive {
 	/* font-size: 30px; */
   font-size: calc(8px + 1.2vw) !important;
   text-transform: uppercase;
+  text-decoration: none;
   
 	text-align: center;
 
@@ -453,4 +454,58 @@ h3.text-responsive {
 	color: rgba(71, 126, 232, 0.7);
   outline-color: rgba(71, 126, 232, 0);
   outline-offset: calc(1px + 1.5vw);
+}
+
+/* Footer */
+.footer {
+  position: relative;
+  bottom: 0px;
+  width: 100%;
+  height: 100px; 
+  background-color: rgba(7,11,15,1);
+  min-width: 250px;
+  border-top: 1px rgba(49, 47, 47, 0.5) solid;
+}
+
+/* Social buttons */
+.socialbtns {
+  justify-content: center;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .socialbtns a {
+  width: 45px;
+  height: 45px;
+  float: left;
+  color: #999;
+  font-size: 30px;
+  text-decoration: none;
+  margin-right: 12px;
+  cursor: default;
+}
+
+footer .socialbtns a:hover {
+	text-decoration: none;
+}
+
+.socialbtns .fab {
+	width: 45px;
+  height: 45px;
+	color: #000;
+	background-color: rgb(59, 58, 58);
+	border: 1px solid #000;
+	padding-top: 7px;
+	border-radius: 22px;
+	-moz-border-radius: 22px;
+	-webkit-border-radius: 22px;
+	-o-border-radius: 22px;
+  margin: auto;
+  cursor:pointer;
+}
+
+.socialbtns .fab:hover {
+	color: #76bbff;
+	background-color: rgba(0, 0, 0, 0);
+	border: 1px solid #000;
 }
