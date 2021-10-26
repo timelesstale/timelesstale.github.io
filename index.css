@@ -26,6 +26,19 @@ body
   min-width: 250px;  
 }
 
+/* Trailer margin bottom */
+@media screen and (min-width: 1400px) {
+  .trailer{
+    margin-bottom: 0 !important;
+  }
+}
+
+@media screen and (max-width: 1400px) {
+  .trailer{
+    margin-bottom: 1rem !important;
+  }
+}
+
 /* Media queries per people card responsive  */
 @media screen and (min-width: 724px) and (max-width: 768px) {
   .custom-iphone-col {
