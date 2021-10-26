@@ -101,6 +101,13 @@ body
   }
 }
 
+/* Linea divisore */
+.divisorLine{
+  border-top: 1px solid; 
+  border-color: #76bbff; 
+  width: 45% !important;
+}
+
 /* Testo MEMBERS  */
 h2.text-responsive {
   font-size: calc(30px + 0.5vw) !important;
