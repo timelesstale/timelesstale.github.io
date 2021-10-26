@@ -105,7 +105,6 @@ body
 .divisorLine{
   border-top: 1px solid; 
   border-color: #76bbff; 
-  width: 45% !important;
 }
 
 /* Testo MEMBERS  */
@@ -464,7 +463,7 @@ h3.text-responsive {
 }
 
 /* Footer */
-.footer {
+footer {
   position: relative;
   bottom: 0px;
   width: 100%;
@@ -474,35 +473,129 @@ h3.text-responsive {
   border-top: 1px rgba(49, 47, 47, 0.5) solid;
 }
 
-/* Social buttons */
-.socialbtns {
-  justify-content: center;
-  text-align: center;
-  margin-top: 20px;
+@media screen and (max-width: 991px){
+  footer{
+    height: 240px; 
+  }
 }
 
-footer .socialbtns a {
+footer .footer{
+  width: 70% !important;
+  height: 100%;
+  margin: auto;
+}
+
+footer p{
+  color: #76bbff;
+  font-family: 'Montserrat', sans-serif;
+  float: left;
+  margin-top: 25px;
+  color: #76bbff;
+  margin-right: 10px;
+  font-size: 15px;
+}
+
+@media screen and (max-width: 991px){
+  footer p{
+    position: absolute;
+    left: 50%;
+    margin-top: 170px;
+    margin-left: -95px;
+    text-align: center;
+  }
+}
+
+/* Logo */
+footer a.logo {
+  background: url("./static/images/LogoBianco.png");
+  background-size: 50px 50px;
+
+  position: absolute;
+  width:50px; 
+  height: 50px; 
+  left: 50%;
+  margin-left: -25px;
+  margin-top: 25px;
+
+  -webkit-transition: opacity .3s ease-in-out;
+  -moz-transition: opacity .3s ease-in-out;
+  -o-transition: opacity .3s ease-in-out;
+  transition: opacity .3s ease-in-out;
+  z-index: 1;
+}
+
+@media screen and (max-width: 991px){
+  footer a.logo{
+    left: 50%;
+    margin-left: -25px;
+    margin-top: 25px;
+    position: absolute;
+  }
+}
+
+footer a.logo.colorato {
+  background: url("./static/images/LogoColorato.png");
+  background-size: 50px 50px;
+  z-index: 0;
+}
+
+footer a.logo.bianco:hover {
+  opacity:0;
+}
+
+/* Social buttons */
+footer p.text{
+  margin-top: 10px;
+}
+
+@media screen and (max-width: 991px){
+  footer p.text{
+    position: absolute;
+    left: 50%;
+    margin-top: -25px;
+    margin-left: -40px;
+    text-align: center;
+  }
+}
+
+footer .social {
+  justify-content: center;
+  text-align: center;
+  margin-top: 25px;
+  float: right;
+}
+
+@media screen and (max-width: 991px){
+  footer .social{
+    left: 50%;
+    margin-left: -80px;
+    margin-top: 110px;
+    position: absolute;
+  }
+}
+
+footer .social a {
   width: 45px;
   height: 45px;
   float: left;
   color: #999;
-  font-size: 30px;
+  font-size: 26px;
   text-decoration: none;
   margin-right: 12px;
   cursor: default;
 }
 
-footer .socialbtns a:hover {
+footer .social a:hover {
 	text-decoration: none;
 }
 
-.socialbtns .fab {
+.social .fab {
 	width: 45px;
   height: 45px;
 	color: #000;
 	background-color: rgb(59, 58, 58);
 	border: 1px solid #000;
-	padding-top: 7px;
+	padding-top: 8px;
 	border-radius: 22px;
 	-moz-border-radius: 22px;
 	-webkit-border-radius: 22px;
@@ -511,8 +604,8 @@ footer .socialbtns a:hover {
   cursor:pointer;
 }
 
-.socialbtns .fab:hover {
+.social .fab:hover {
 	color: #76bbff;
-	background-color: rgba(0, 0, 0, 0);
+	background-color: rgba(59, 58, 58, 0.5);
 	border: 1px solid #000;
 }
