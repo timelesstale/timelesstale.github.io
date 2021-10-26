@@ -103,7 +103,7 @@ body
 
 /* Linea divisore */
 .divisorLine{
-  border-top: 1px solid; 
+  border-top: 2px solid; 
   border-color: #76bbff; 
 }
 
@@ -589,7 +589,7 @@ footer .social a:hover {
 	text-decoration: none;
 }
 
-.social .fab {
+.social .icona {
 	width: 45px;
   height: 45px;
 	color: #000;
@@ -604,7 +604,7 @@ footer .social a:hover {
   cursor:pointer;
 }
 
-.social .fab:hover {
+.social .icona:hover {
 	color: #76bbff;
 	background-color: rgba(59, 58, 58, 0.5);
 	border: 1px solid #000;
