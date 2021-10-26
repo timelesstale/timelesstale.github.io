@@ -426,7 +426,7 @@ h3.text-responsive {
   left: 50%;
   transform: translate(-50%, -50%);
 
-  z-index:2;
+  z-index:2000000;
 }
 
 @media screen and (max-width: 250px){
