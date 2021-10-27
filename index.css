@@ -424,7 +424,7 @@ h3.text-responsive {
   position:absolute;
   top: 70%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%) scale(1);
 
   z-index:2000000;
 
@@ -434,14 +434,20 @@ h3.text-responsive {
 @keyframes pulse {
 	0% {
 		transform: translate(-50%, -50%) scale(0.95);
+    top: 70%;
+    left: 50%;
 	}
 
 	70% {
 		transform: translate(-50%, -50%) scale(1);
+    top: 70%;
+    left: 50%;
 	}
 
 	100% {
 		transform: translate(-50%, -50%) scale(0.95);
+    top: 70%;
+    left: 50%;
 	}
 }
 
