@@ -421,7 +421,7 @@ h3.text-responsive {
 }
 
 .video-overlay {
-  position:absolute;
+  position:fixed;
   top: 70%;
   left: 50%;
 
@@ -439,7 +439,7 @@ h3.text-responsive {
 	0% {
 		
     -webkit-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
@@ -447,7 +447,7 @@ h3.text-responsive {
 	70% {
 		
     -webkit-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(1);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
@@ -455,7 +455,7 @@ h3.text-responsive {
 	100% {
 		
     -webkit-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
@@ -464,21 +464,21 @@ h3.text-responsive {
 @-moz-keyframes pulse {
 	0% {
     -moz-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	70% {
     -moz-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(1);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	100% {
     -moz-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
+    position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
