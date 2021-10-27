@@ -425,10 +425,10 @@ h3.text-responsive {
   top: 70%;
   left: 50%;
 
-  transform: translate(-50%, -50%) scale(1);
-  -webkit-transform: translate(-50%, -50%) scale(1);
-  -moz-transform: translate(-50%, -50%) scale(1);
-  -o-transform: translate(-50%, -50%) scale(1);
+  transform: translate3d(-50%, -50%, 0) scale(1);
+  -webkit-transform: translate3d(-50%, -50%, 0) scale(1);
+  -moz-transform: translate3d(-50%, -50%, 0) scale(1);
+  -o-transform: translate3d(-50%, -50%, 0) scale(1);
 
   z-index:2;
 
@@ -438,7 +438,7 @@ h3.text-responsive {
 @-webkit-keyframes pulse {
 	0% {
 		
-    -webkit-transform: translate(-50%, -50%) scale(0.95);
+    -webkit-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
@@ -446,7 +446,7 @@ h3.text-responsive {
 
 	70% {
 		
-    -webkit-transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate3d(-50%, -50%, 0) scale(1);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
@@ -454,7 +454,7 @@ h3.text-responsive {
 
 	100% {
 		
-    -webkit-transform: translate(-50%, -50%) scale(0.95);
+    -webkit-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
@@ -463,21 +463,21 @@ h3.text-responsive {
 
 @-moz-keyframes pulse {
 	0% {
-    -moz-transform: translate(-50%, -50%) scale(0.95);
+    -moz-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	70% {
-    -moz-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate3d(-50%, -50%, 0) scale(1);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	100% {
-    -moz-transform: translate(-50%, -50%) scale(0.95);
+    -moz-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:fixed;
     top: 70% !important;
     left: 50% !important;
@@ -486,21 +486,21 @@ h3.text-responsive {
 
 @-o-keyframes pulse {
 	0% {
-    -o-transform: translate(-50%, -50%) scale(0.95);
+    -o-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	70% {
-    -o-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate3d(-50%, -50%, 0) scale(1);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	100% {
-    -o-transform: translate(-50%, -50%) scale(0.95);
+    -o-transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
@@ -509,21 +509,21 @@ h3.text-responsive {
 
 @keyframes pulse {
 	0% {
-		transform: translate(-50%, -50%) scale(0.95);
+		transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	70% {
-		transform: translate(-50%, -50%) scale(1);
+		transform: translate3d(-50%, -50%, 0) scale(1);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
 	}
 
 	100% {
-		transform: translate(-50%, -50%) scale(0.95);
+		transform: translate3d(-50%, -50%, 0) scale(0.95);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
