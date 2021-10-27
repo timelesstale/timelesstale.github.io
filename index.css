@@ -428,6 +428,8 @@ h3.text-responsive {
 
   z-index:2000000;
 
+  -webkit-transform: translate3d(0, 0, 0);
+  transform : translate3d(0, 0, 0);
 	animation: pulse 2s infinite;
 }
 
