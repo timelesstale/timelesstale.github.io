@@ -435,29 +435,6 @@ h3.text-responsive {
   animation: pulse 2s infinite;
 }
 
-@keyframes pulse {
-	0% {
-		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
-    top: 70% !important;
-    left: 50% !important;
-	}
-
-	70% {
-		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(1);
-    position:absolute;
-    top: 70% !important;
-    left: 50% !important;
-	}
-
-	100% {
-		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
-    position:absolute;
-    top: 70% !important;
-    left: 50% !important;
-	}
-}
-
 @-webkit-keyframes pulse {
 	0% {
 		
@@ -524,6 +501,29 @@ h3.text-responsive {
 
 	100% {
     -o-transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
+    position:absolute;
+    top: 70% !important;
+    left: 50% !important;
+	}
+}
+
+@keyframes pulse {
+	0% {
+		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
+    position:absolute;
+    top: 70% !important;
+    left: 50% !important;
+	}
+
+	70% {
+		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(1);
+    position:absolute;
+    top: 70% !important;
+    left: 50% !important;
+	}
+
+	100% {
+		transform: translate3d(0, 0, 0) translate(-50%, -50%) scale(0.95);
     position:absolute;
     top: 70% !important;
     left: 50% !important;
