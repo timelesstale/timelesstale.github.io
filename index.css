@@ -130,11 +130,27 @@ h3.text-responsive {
   font-size: calc(20px + 0.5vw) !important;
 }
 
+h6.text-responsive {
+  font-size: calc(15px + 0.5vw) !important;
+}
+
 .blue-text{
   color: #76bbff;
   font-family: 'Montserrat', sans-serif;
   font-weight: medium;
   font-size: 25px;
+}
+
+.thanks-text{
+  color: #5c5c5c;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+}
+
+.thanks-text-2{
+  color: #a1a1a1;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
 }
 
 /* Founders & Artists */
