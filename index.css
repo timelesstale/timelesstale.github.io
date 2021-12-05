@@ -598,7 +598,7 @@ footer p.text{
     position: absolute;
     left: 50%;
     margin-top: -25px;
-    margin-left: -40px;
+    margin-left: -35px;
     text-align: center;
   }
 }
@@ -613,7 +613,7 @@ footer .social {
 @media screen and (max-width: 991px){
   footer .social{
     left: 50%;
-    margin-left: -80px;
+    margin-left: -114px;
     margin-top: 110px;
     position: absolute;
   }
